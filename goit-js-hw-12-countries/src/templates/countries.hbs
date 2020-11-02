@@ -1,0 +1,23 @@
+<div class="whole_block">
+    <div class="country">{{name}}</div>
+    <div class="wrapper">
+        <div class="block_left">
+            <div class="capital">
+                <p class="boldness">Capital: &nbsp; </p> {{capital}}
+            </div>
+            <div class="population">
+                <p class="boldness">Population: &nbsp;
+                </p> {{population}}
+            </div>
+            <div class="languages">
+                <p class="boldness">Languages: &nbsp; </p>
+            </div>
+            <ul class="languages_list">{{#each languages}}
+                <li>- {{this.name}}</li>
+                {{/each}}</ul>
+        </div>
+        <p></p>
+
+        <img class="block_right" src="{{flag}}" alt="country flag" style="width: 200px;">
+    </div>
+</div>

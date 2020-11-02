@@ -1,0 +1,216 @@
+/*reset css*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  margin-top: 100px;
+  line-height: 1;
+}
+ol,
+ul {
+  /* list-style: none; */
+  margin-left: 270px;
+  margin-top: 30px;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+}
+/* END  reset css*/
+
+body {
+  background-color: white;
+  font-family: arial;
+}
+
+.title {
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.input_wrapper {
+  display: flex;
+  justify-content: center;
+}
+input {
+  margin-top: 20px;
+  display: flex;
+  width: 60%;
+  height: 50px;
+  font-size: 26px;
+  border-radius: 5px;
+  border-color: grey;
+  margin-top: 0 auto;
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+  font-size: 50px;
+}
+.country {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin: 40px 0px;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+  font-weight: bold;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block_left,
+.block_right {
+  display: flex;
+  flex-basis: 45%;
+}
+.block_left {
+  flex-wrap: wrap;
+}
+.boldness {
+  font-weight: bold;
+}
+.capital,
+.population,
+.languages {
+  display: flex;
+  justify-content: left;
+  flex-basis: 90%;
+  margin-left: 270px;
+  margin-top: 20px;
+}
+.pre_list_item {
+  padding: 5px 0px;
+  font-weight: bold;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.languages_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 270px;
+  margin-top: 0px;
+}
+li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  width: 100%;
+}
